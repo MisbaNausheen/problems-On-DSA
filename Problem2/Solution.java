@@ -24,7 +24,7 @@ public class Solution{
     static void findSecondSmallest(int[] arr, int n) {
         int small = Integer.MAX_VALUE;
         int second_small = Integer.MAX_VALUE;
-
+    
         for(int i = 0; i <= n-1; i++) {
             if (arr[i] < small) {
                 second_small = small;
