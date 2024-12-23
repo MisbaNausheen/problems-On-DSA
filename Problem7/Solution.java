@@ -1,3 +1,4 @@
+/*Right rotate an array by d elements*/
 import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
